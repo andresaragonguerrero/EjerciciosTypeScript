@@ -11,7 +11,7 @@ class Alumno {
 
 const alumno = new Alumno("Antonio", 20, true);
 
-// hallar superficie y perímetro
+// hayar superficie y perímetro
 class Cuadrado {
     x: number;
     y: number;
@@ -31,12 +31,12 @@ class Cuadrado {
 
 const cuadrado = new Cuadrado(5, 6, 10);
 const cuadrado2 = new Cuadrado(5, 6, 10);
-console.log(`Área del cuadrado 1` + cuadrado.mostrarAreaCuadrado());
-console.log(`Perímetro del cuadrado 1` + cuadrado.mostrarPerimetroCuadrado());
-console.log(`Área del cuadrado 2` + cuadrado2.mostrarAreaCuadrado());
-console.log(`Perímetro del cuadrado 2` +cuadrado2.mostrarPerimetroCuadrado());
+console.log(`Área del cuadrado 1: ` + cuadrado.mostrarAreaCuadrado());
+console.log(`Perímetro del cuadrado 1: ` + cuadrado.mostrarPerimetroCuadrado());
+console.log(`Área del cuadrado 2: ` + cuadrado2.mostrarAreaCuadrado());
+console.log(`Perímetro del cuadrado 2: ` +cuadrado2.mostrarPerimetroCuadrado());
 
-// hallar superficie y perímetro
+// hayar superficie y perímetro
 class Circulo {
     x: number;
     y: number;
@@ -56,8 +56,8 @@ class Circulo {
 
 const circulo = new Circulo(2, 2, 4);
 const circulo2 = new Circulo(2, 2, 4);
-console.log(`Área del círculo 1` + circulo.mostrarAreaCirculo());
-console.log(`Perímetro del círculo 1` + circulo.mostrarPerimetroCirculo());
-console.log(`Área del círculo 2` + circulo2.mostrarAreaCirculo());
+console.log(`Área del círculo 1: ` + circulo.mostrarAreaCirculo());
+console.log(`Perímetro del círculo 1: ` + circulo.mostrarPerimetroCirculo());
+console.log(`Área del círculo 2: ` + circulo2.mostrarAreaCirculo());
+console.log(`Perímetro del círculo 1: ` + circulo2.mostrarPerimetroCirculo());
 
-console.log(`Perímetro del círculo 1` + circulo2.mostrarPerimetroCirculo());
