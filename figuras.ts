@@ -10,18 +10,14 @@ abstract class Figura {
 }
 
 class Rectangulo extends Figura {
-    z: number;
-    a: number;
-    constructor (x: number, y: number, z: number, a: number){
+    constructor (x: number, y: number){
         super(x,y);
-        this.z = z;
-        this.a = a;
     }
     calcularArea(): number {
         return this.x * this.y;
     }
     calcularPerimetro(): number {
-        return this.x + this.y + this.z + this.a;
+        return (2 * this.x) *  (2 * this.y);
     }
 }
 
@@ -68,3 +64,4 @@ arregloFiguras.forEach(figura => {
     console.log(figura.calcularArea());
     console.log(figura.calcularPerimetro());
 });
+
