@@ -11,7 +11,7 @@ class Alumno {
 
 const alumno = new Alumno("Antonio", 20, true);
 
-// hayar superficie y perímetro
+// hallar superficie y perímetro
 class Cuadrado {
     x: number;
     y: number;
@@ -36,7 +36,7 @@ console.log(`Perímetro del cuadrado 1` + cuadrado.mostrarPerimetroCuadrado());
 console.log(`Área del cuadrado 2` + cuadrado2.mostrarAreaCuadrado());
 console.log(`Perímetro del cuadrado 2` +cuadrado2.mostrarPerimetroCuadrado());
 
-// hayar superficie y perímetro
+// hallar superficie y perímetro
 class Circulo {
     x: number;
     y: number;
@@ -59,4 +59,5 @@ const circulo2 = new Circulo(2, 2, 4);
 console.log(`Área del círculo 1` + circulo.mostrarAreaCirculo());
 console.log(`Perímetro del círculo 1` + circulo.mostrarPerimetroCirculo());
 console.log(`Área del círculo 2` + circulo2.mostrarAreaCirculo());
+
 console.log(`Perímetro del círculo 1` + circulo2.mostrarPerimetroCirculo());
